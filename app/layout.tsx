@@ -18,9 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* <script dangerouslySetInnerHTML={{
+        <script dangerouslySetInnerHTML={{
           __html: `(${preventDevTools.toString()})();`
-        }} /> */}
+        }} />
       </body>
     </html>
   )
